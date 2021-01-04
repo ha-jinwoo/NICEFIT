@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입 폼형식</title>
+    <style>
+      .nav-item{
+          margin-left: 20px;
+      }
+      .nav-right-items{
+          display: flex;
+          margin-left:auto;
+      }
+      .nav-item a:link, .nav-item a:visited{
+          color : #4A4A4A;
+          text-decoration: none;
+      }
+      .nav-item a:hover{
+          color: black;
+      }
+      .wrap{
+        margin-left: 900px;
+        margin-top: 60px;
+      }
+      .cl{
+            text-align:center;
+            font-size: 0.8em; color:#FFFFFF;
+            font-weight: 600;
+      }
+      .button{
+        position: relative; 
+        background-color: #007BFF; 
+        height: 28px; width: 238px;
+        cursor: pointer;
+        border:0;
+        outline: 0;
+        border-radius: 2px 2px 2px 2px;
+        margin-top: 20px;
+        
+      }
+      .button:hover {background-color: #006FFF}
+
+      .register a:link, .register a:visited{
+        color:#007BFF;
+        text-decoration: none;
+      }
+      .register a:hover{
+        color: #006FFF;
+      }
+  </style>
+</head>
+<body>
+   <div style="display:flex;align-items: center;">
+        <div><a href="index.html"><img src="img/logo2.png" ></a></div>
+        <div class="nav-right-items">
+            <div class ="nav-item"><a href="apply.html">지원하기</a></div>
+            <div class ="nav-item"><a href="review.html">리얼후기</a></div>
+            <div class ="nav-item"><a href="curriculum.html">커리큘럼</a></div>
+            <div class ="nav-item"><a href="coach.html">코치소개</a></div>
+            <div class ="nav-item"><a >FAQ</a></div>
+            <div class ="nav-item"><a href="login.html" style="color: #000099";>로그인</a></div>
+        </div>
+    </div>
+    <form action="index.html" method="post">
+
+    <div class="wrap">
+      <form action="index.html" method="post" >
+      <div style="font-weight: bold; font-size: 1.3em;">로그인</div>
+    <div>
+      <br>
+      <div style="font-family:굴림; color: #2b2b2be3; font-weight: bold; font-size: 0.8em; ">휴대폰</div>
+      <input type="text" placeholder=" 0123456789" required style="height: 25px; width: 230px; margin-top: 7px; font-family: 문체부 제목 돋움체; color: #2b2b2be3; font-size: 0.9em;">
+    </div>
+    <div style="font-family:굴림; color: #2b2b2be3; font-weight: bold; font-size: 0.8em; margin-top: 20px;">비밀번호</div>
+    <div>
+      <input type="password" placeholder=" 비밀번호" required style="height: 25px; width: 230px; margin-top: 7px; font-family: 문체부 제목 돋움체; color: #2b2b2be3; font-size: 0.9em;">
+    </div>
+    <button class="button">
+      <div class="cl">로그인</div>
+    </button>
+    
+  </form>
+    <div>
+      
+      <div class="register" style="margin-top: 20px;"> <a href="register.html" style="margin-left:182px; font-family:굴림; font-weight: bold; font-size: 0.8em; ">회원가입</a></div>
+      
+    </div>
+  </div>
+</body>
+</html>
